@@ -1,0 +1,26 @@
+# Default duration in minutes for arenas that do not define their own duration.
+duration: 10
+
+# Multi-arena configuration.
+# Use /regenffa <arena|all> where <arena> is one of the keys below.
+arenas:
+  flat:
+    enabled: true
+    duration: 10
+    modelworld: modelffa
+    resetworld: ffaarena
+    world-between-regen: tempworld
+    x: -39
+    y: 137
+    z: -484
+
+  canyon:
+    enabled: false
+    duration: 15
+    modelworld: modelcanyon
+    resetworld: ffacanyon
+    world-between-regen: tempworld
+    x: -39
+    y: 137
+    z: -484
+

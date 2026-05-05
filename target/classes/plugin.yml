@@ -1,0 +1,9 @@
+name: FFARegen
+version: 0.1
+main: com.masterhaxixu.Main
+depend: [Multiverse-Core]
+commands:
+   regenffa:
+      description: Regenerate one arena or all configured arenas
+      usage: /regenffa <arena|all>
+      permission: ffaregen.regen
